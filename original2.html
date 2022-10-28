@@ -5,7 +5,31 @@
     <title>luckee</title>
     <link rel="stylesheet" href="original2.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <script src="https://unpkg.com/ionicons@6.0.2/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@6.0.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+        integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"
+        integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"
+        integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"
+        integrity="sha512-5nTpER5HrSoRPyd8szIn2QglL3A54KJs4XOcX3SdHTbLb8TO/5wLqoFYSFGNyhzZy7CFAOZf66X3ikr2v7Bfuw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"
+        integrity="sha512-UznfQR3LKkKPL0k7HISMqOsmUCjVhjWK8HlR0Pxo5JpjN8eZ8XRwKBRX6OTOQIO0FYOl8Oue+4dG4uHtx1SgKQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"
+        integrity="sha512-Xc+rcY3w0DANwcFGWBcnBf2dw/p5a4IBAKqHdBJScNOnIH+qoQYE6xuWEdW3wiP7Q+XvL9MacrnKkzoP0Kexug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/BezierPlugin.min.js"
+        integrity="sha512-H0dUDNDv/uVTWqjYbXjaHb5mILJYXUJ9g36b/Ye/Jt/wk1tVPi8M99AEPbPEBkwL/jysKfLg6sN+kvElcJuESw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
     <script defer src="app.js"></script>
 </head>
 
@@ -13,10 +37,10 @@
     <div class="navbar">
 
 
-        <div class="logo"><a href="#"><img src="1.png" class="logos"></a></div>
+        <div class="logo"><a href="#"><img src="z.png" class="logos"></a></div>
         <ul>
 
-            <li><a href="#">Product</a>
+            <li><a href="#" class="nav-link">Product</a>
                 <div class="arrow">
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -69,6 +93,124 @@
             </div>
 
         </div>
+
+        <!-- DROP DOWN BOX -->
+
+        <div class="drop-down-menu">
+
+            <div class="sub-cont-item">
+
+                <div class="item-1">
+
+                    <div class="item-cir1">
+                        <center>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="item-pic">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 
+                            5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 
+                            1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z" />
+                          </svg>
+                        </center>
+                          
+                    </div>
+
+                    <header class="item-text">
+                      <b class="bolda">Quick Draw</b>
+                       <p class="para">Connect every tool you use for your business on Bumpa</p>
+                    </header>
+                </div>
+
+                <div class="item-2">
+                    <div class="item-cir2">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="item-pic">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 
+                                2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 
+                                2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                              </svg>
+                               
+                        </center>
+                    </div>
+                    <header class="item-text">
+                        <b class="bolda">Factoes</b>
+                        <p class="para">Connect every tool you use for your business on Bumpa</p>
+                     </header>
+                </div>
+
+                <div class="item-3">
+                    <div class="item-cir3">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="item-pic">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5
+                                 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 
+                                 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 
+                                 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
+                              </svg>
+                              
+                        </center>
+                    </div>
+                    <header class="item-text">
+                        <b class="bolda">Pacesetter</b>
+                        <p class="para">Connect every tool you use for your business on Bumpa</p>
+                     </header>
+                </div>
+
+                <div class="item-4">
+                    <div class="item-cir4">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="item-pic">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.745 3A23.933 23.933 0 003 12c0 3.183.62 6.22 1.745 9M19.5 3c.967 
+                                2.78 1.5 5.817 1.5 9s-.533 6.22-1.5 9M8.25 8.885l1.444-.89a.75.75 0 011.105.402l2.402 7.206a.75.75 0
+                                 001.104.401l1.445-.889m-8.25.75l.213.09a1.687 1.687 0 002.062-.617l4.45-6.676a1.688 1.688 0 012.062-.618l.213.09" />
+                              </svg>
+                              
+                        </center>
+                    </div>
+                    <header class="item-text">
+                        <b class="bolda">Numbers</b>
+                        <p class="para">Connect every tool you use for your business on Bumpa</p>
+                     </header>
+                </div>
+
+                <div class="item-5">
+                    <div class="item-cir5">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="item-pic">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3
+                                 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 
+                                 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                              </svg>
+                              
+                        </center>
+                    </div>
+                    <header class="item-text">
+                        <b class="bolda">Shopping Sprees</b>
+                        <p class="para">Connect every tool you use for your business on Bumpa</p>
+                     </header>
+                </div>
+
+                <div class="item-6">
+                    <div class="item-cir6">
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="item-pic">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25
+                                 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664
+                                  0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 
+                                  1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 
+                                  .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+                              </svg>
+                              
+                        </center>
+                    </div>
+                    <header class="item-text">
+                        <b class="bolda">Wishlist</b>
+                        <p class="para">Connect every tool you use for your business on Bumpa</p>
+                     </header>
+                </div>
+
+            </div>
+
+
+        </div>
     </div>
 
     <div class="cont2">
@@ -92,7 +234,8 @@
         </div>
 
         <div class="cont3">
-            <h3> Every hand is a winner </h3>
+            <h3> Every hand is a winner</h3><br>
+            <p class="par-3">Enjoy luck induced winnings</p>
 
             <div class="card">
                 <div class="f-inner">
@@ -142,6 +285,95 @@
 
 
         </div>
+        <!-- ADDED DIV -->
+
+        <section class="animate">
+            <div class="plane">
+                <img src="p.png" height="75px">
+            </div>
+            <div class="colors">
+
+                <div class="box blue show">
+
+                    <header>
+
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="money">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 
+                                1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0
+                                 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 
+                                 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016
+                                  0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                            </svg>
+
+                        </center><br>
+
+
+
+                        We enable you to profit from your <br>expertise in common knowledge.
+
+                    </header>
+                </div>
+
+                <div class="box red">
+                    <header>
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="shield">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 
+                                0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 
+                                0-6.1-1.248-8.25-3.285z" />
+                            </svg>
+
+                        </center><br>
+
+                        Top notch data protection<br> service through pseudo-names.
+                    </header>
+                </div>
+
+                <div class="box yellow">
+                    <header>
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="group">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 
+                                3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 
+                                5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 
+                                5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                            </svg>
+                        </center><br>
+
+                        Garner enough economic insight and <br>business stats by leveraging on the<br> wisdom of the
+                        crowd.
+                    </header>
+                </div>
+
+                <div class="box green">
+                    <header>
+
+                        <center>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="megaphone">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 
+                                110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 
+                                20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847
+                                 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 
+                                 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46" />
+                            </svg>
+
+                        </center><br>
+
+                        Fruitful bantering and unearthed<br> entertainment. Earn while rooting<br> for your fav celebs.
+                    </header>
+                </div>
+
+            </div>
+        </section>
+
+
 
         <div class="cont4">
             <div class="help">
@@ -152,7 +384,7 @@
                 </header>
                 <header class="header10">We've controlled the risk for you.<br>
                     <p class="par-text-9">Now do your thing on our level<br>
-                        playing feild..
+                        playing field..
                     </p>
                 </header>
                 <div class="pics"><img src="F2.png" height="480" width="200" class="image1"></div>
@@ -170,7 +402,7 @@
 
         <div class="cont5">
             <header class="footer-text"> <b> About Luckee </b>
-                <p class="footer-par"> Luckee is an online community <br> offering social-gaming, cryto-enabled
+                <p class="footer-par"> Luckee is an online community <br> offering social games, cryto-enabled
                     payments,
                     <br>hardware gamification, and event contracts.
                 </p>
@@ -197,7 +429,7 @@
 
             <header class="footer-text3">
                 <p class="footer-par3"> <b>Legal</b></p>
-                
+
                 <a class="a1" href="#">Terms of service</a>
                 <a class="a1" href="#">Privacy policy</a>
                 <a class="a1" href="#">Credits</a>
