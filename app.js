@@ -129,26 +129,88 @@ window.addEventListener('scroll', () => {
 
 // DROP DOWN MENU ANIMATION
 
-const navLink = document.querySelector(".nav-link")
+
+// -------------BOX1 (PRODUCT)------------------------
+
+const navLink1 = document.querySelector(".nav-link1")
+const navLink2 = document.querySelector(".nav-link2")
+const navLink3 = document.querySelector(".nav-link3")
+const navLink4 = document.querySelector(".nav-link4")
+const navLink5 = document.querySelector(".nav-link5")
+
+
+const Actuator = document.querySelector(".drop-down-menu")
+
+
+
+
+
+
 const menuBox = document.querySelector(".drop-down-menu")
 const Arrow = document.querySelector(".arrow")
 const pictureContainer = document.querySelector(".pic-container1")
+const prod = document.querySelectorAll(".prod")
+const container1 = document.querySelector(".cont1")
 
-navLink.addEventListener("mouseenter", ()=> {
+// THIS CODE DISPLAYS THE FIRST DROP DOWN MENU "PRODUCT"
+const A1 = navLink1.addEventListener("click", () => {
     menuBox.classList.toggle("active")
     Arrow.classList.toggle("active")
     pictureContainer.classList.toggle("active")
 
+    console.log(A1); //it gives an undefined value
+
 })
 
-navLink.addEventListener("mouseleave", ()=> {
+
+// LOOPING THROUGH THE CONTENT OF THE DROP DOWN MENU TO PERFORM CLOSE OPERATION WHEN AN ITEM IS SELECTED FROM ITS OPTIONS
+prod.forEach(n => n.
+    addEventListener("click", () => {
+        menuBox.classList.remove("active")
+        Arrow.classList.remove("active")
+        pictureContainer.classList.remove("active")
+    })
+    
+)
+
+//THIS CODE CLOSES THE DROP DOWN MENU WHEN YOU CLICK ON THE OUTSIDE SURROUNDING DIVS
+container1. addEventListener("click", () => {
     menuBox.classList.remove("active")
     Arrow.classList.remove("active")
     pictureContainer.classList.remove("active")
-   
-    
-
 })
+
+//Selecting on the second item in the navbar closes the *immediate opened* drop down box
+function Dothis() {
+    if (A1 === undefined ) {
+
+        // A1 === undefined && B1 ===UNDEFINED
+
+       
+        menuBox.classList.remove("active")
+        Arrow.classList.remove("active")
+        pictureContainer.classList.remove("active")
+       
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
