@@ -417,33 +417,33 @@ background-color: #edf5fe;
 
 
 
-        background: url(2.jpg);
+        /* background: url(2.jpg);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
 
     }
 
     40% {
 
-        background: url(E.jpeg);
+        /* background: url(E.jpeg);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
 
     }
 
     60% {
 
-        background: url(d.webp);
+        /* background: url(d.webp);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
 
     }
 
     80% {
 
-        background: url(T3.webp);
+        /* background: url(T3.webp);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
 
     }
 
@@ -514,6 +514,7 @@ h3 {
     height: 850px;
     position: relative;
     margin-top: 21%;
+    color: rgb(4, 24, 4);
 }
 
 .card {
@@ -544,7 +545,7 @@ h3 {
 .inner1 {
     height: 220px;
     width: 310px;
-    background: url(dashboard.png);
+    background: url(e2.webp);
     margin-left: 8%;
     margin-top: 9%;
     position: absolute;
@@ -656,9 +657,12 @@ h3 {
 
 .animate {
     height: 980px;
-    background-color: white;
+    background: url(green.webp);
     position: relative;
     overflow: hidden;
+    background-position: center;
+    background-size: cover;
+ 
 }
 
 .plane {
@@ -739,6 +743,7 @@ h3 {
 
 .shield {
     color: white;
+
 }
 
 
@@ -750,7 +755,7 @@ h3 {
 .help {
     height: 550px;
     width: 90%;
-    background-color: rgb(67, 163, 67);
+    background-color: rgb(32, 99, 32);
     border-radius: 15px;
     margin-top: 5%;
     margin-left: 5%;
