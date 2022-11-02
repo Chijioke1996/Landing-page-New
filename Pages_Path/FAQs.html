@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    /* CONTAINER 11111111111111111111111111111111111111 */
+
+    .cont1 {
+
+        height: 750px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-color: rgb(4, 24, 4);
+        position: relative;
+
+    }
+
+    .logos {
+        height: 50px;
+
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+
+    .header1 {
+        color: white;
+        font-size: 45px;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .header2 {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .bulb{
+        color: white;
+       height: 100px;
+       width: 100px;
+       margin-left: 64%;
+       margin-top: -6%;
+    }
+
+
+    /* CONTAINER 222222222222222222222222222 */
+
+    .header4 {
+        margin-top: 6%;
+        font-size: 40px;
+        color: rgb(4, 24, 4);
+        position: relative;
+        /* margin-left: -22%; */
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .faq {
+        max-width: 700px;
+        margin-top: 2rem;
+        cursor: pointer;
+        position: relative;
+
+
+
+    }
+
+    .arrow {
+        margin-left: 45%;
+        margin-top: -3%;
+        position: absolute;
+        transition: transform .5s ease-in;
+        color: green;
+
+    }
+
+
+
+    .question h1 {
+        font-size: 1.6rem;
+        text-align: left;
+        font-weight: 400;
+        color: green;
+    }
+
+    .answer {
+        overflow: hidden;
+        max-height: 0;
+
+    }
+
+    .answer p {
+
+        line-height: 1.4;
+        font-size: 1.2rem;
+        text-align: left;
+        margin-top: 3%;
+        
+
+
+    }
+
+    .faq.active .answer {
+        max-height: 300px;
+        animation: fade 1s ease-in-out;
+    }
+
+    .faq.active .arrow {
+        transform: rotate(180deg);
+    }
+
+    @keyframes fade {
+
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+
+    }
+
+
+    /* CONTAINER 333333333333333333333 */
+
+    .cont3{
+        background-color: rgb(205, 205, 218);
+        height: 400px;
+        margin-top: 80px;
+    }
+
+
+
+</style>
+
+
+<body>
+    <div class="cont1">
+        <div class="logo"><a href="#"><img src="/z.png" class="logos"></a></div>
+        <header class="header1"> Frequently Asked Questions</header><br>
+        <header class="header2">Feed your curiousity</header>
+
+        <div class="bulb">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="bulb">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+              </svg>
+              
+        </div>
+
+    </div>
+
+    <div class="cont2">
+        <center>
+            <header class="header4">Frequently Asked Questions</header>
+
+            <div class="faq">
+                <div class="question">
+                    <h1> Who am I playing with?</h1>
+
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="arrow">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            The Luckee algorithm randomly matches you with real-time playmates across the country. And
+                            gives equal odds to all participants. <br>
+
+                            No house exists as the company generates operational revenue from charged commission.
+                            Customer protection is our topmost priority.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="question">
+                    <h1> How to play Quick Draw?</h1>
+
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="arrow">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            Firstly, you need to be registered on Luckee or sign up if you are not yet a member.
+                            <br><br>
+
+                            Fund your Luckee wallet with any of the provided payment means. <br><br>
+
+                            Select "game" from the menu of options. <br><br>
+
+                            Click on Quick Draw and select from the variety of draws what suits you. <br><br>
+
+                            Begin playing and receive instant payouts for wins.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="faq">
+                <div class="question">
+                    <h1> What happens if the draw isn't filled up?</h1>
+
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="arrow">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            A refund (exit draw) button appears after 48 hour of staking an unmatched or an unfilled
+                            draw.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="faq">
+                <div class="question">
+                    <h1> How can I withdraw money from my Luckee wallet?</h1>
+
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="arrow">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            Locate and select wallet from the collapsible menu. <br> <br>
+
+                            Go to withdraw, enter the desired amount and submit. The requested amount is automatically
+                            transferred to your default registered account.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="faq">
+                <div class="question">
+                    <h1> Is intra-app transfer allowed?</h1>
+
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="arrow">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            Yes. You can transfer money to registered users on the platform via their transfer ID.
+                            No transfer fee is charged for this operation.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="faq">
+                <div class="question">
+                    <h1>How can I select who I want to play with?</h1>
+
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="arrow">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            You can share the thrill and the fun with friends and family and a wide spectrum of registered
+                            participants within the Luckee community. <br>
+                            Luckee allows you to create and customize your own raffle groups.
+                            Using the Invite option, you can invite playmates to join your custom Quick Draw group.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="faq">
+                <div class="question">
+                    <h1> How can I partake in the pacesetter quiz session?</h1>
+
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="arrow">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            Fund your wallet with the required fee. <br><br>
+
+                            Select the option "game" from the retractable side menu bar or select game from the bottom navigation bar (footer menu) if you are using a mobile device. <br> <br>
+                            
+                            Select 'pacesetter' from the list of games. Click on 'play now' and read the brief instruction displayed. <br> <br>
+                            
+                            Worthy of noting, the pacesetter quiz game is being played in weekly rounds.
+                            
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="faq">
+                <div class="question">
+                    <h1>Did you know? </h1>
+
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="arrow">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            Luckee rewards selected newly registered members with a fixed amount that can be used on any activity on the platform or transferred.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </center>
+    </div>
+
+    <div class="cont3"></div>
+
+
+    <script>
+
+        const faqs = document.querySelectorAll(".faq")
+        faqs.forEach((faq) => {
+            faq.addEventListener("click", () => {
+                faq.classList.toggle("active")
+            })
+
+
+        })
+
+        // faqs.forEach((faq) => {
+        //     faq.addEventListener("mouseleave", () => {
+        //         faq.classList.remove("active")
+        //     })
+
+
+        // })
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
