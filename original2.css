@@ -509,12 +509,17 @@ h3 {
 
 }
 
+
+/* CONTAINER 3333333333333333333 */
+
 .cont3 {
-    background-color: rgba(112, 108, 108, 0.374);
+    /* background-color: rgba(112, 108, 108, 0.374); */
     height: 850px;
     position: relative;
     margin-top: 21%;
     color: rgb(4, 24, 4);
+    background-color: rgba(180, 175, 175, 0.164);
+
 }
 
 .card {
@@ -528,9 +533,9 @@ h3 {
 }
 
 .card:hover {
-    transform: scale(1.01);
+    transform: translateY(15px);
     z-index: 5;
-    box-shadow: -5px -5px 30px rgba(112, 108, 108, 0.374);
+   
 
 }
 
@@ -593,9 +598,9 @@ h3 {
 }
 
 .card2:hover {
-    transform: scale(1.01);
+    transform: translateY(15px);
     z-index: 5;
-    box-shadow: -5px -5px 30px rgba(112, 108, 108, 0.374);
+    /* box-shadow: -5px -5px 30px rgba(112, 108, 108, 0.374); */
 
 }
 
@@ -629,9 +634,9 @@ h3 {
 }
 
 .card3:hover {
-    transform: scale(1.01);
+    transform: translateY(15px);
     z-index: 5;
-    box-shadow: -5px -5px 30px rgba(112, 108, 108, 0.374);
+   
 
 }
 
@@ -655,6 +660,8 @@ h3 {
 
 }
 
+/* container 44444444444444444 */
+
 .animate {
     height: 980px;
     background: url(green.webp);
@@ -662,6 +669,7 @@ h3 {
     overflow: hidden;
     background-position: center;
     background-size: cover;
+    /* backdrop-filter: blur(-70px); */
  
 }
 
@@ -746,7 +754,10 @@ h3 {
 
 }
 
+ 
 
+
+/* CONTAINER 44444444444444 */
 .cont4 {
     height: 750px;
     position: relative;
