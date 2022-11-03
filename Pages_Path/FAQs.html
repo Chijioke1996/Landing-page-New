@@ -104,7 +104,7 @@
 
     }
 
-    .answer p {
+    .answer > p {
 
         line-height: 1.4;
         font-size: 1.2rem;
@@ -277,7 +277,7 @@
 
                     <div class="answer">
                         <p>
-                            Yes. You can transfer money to registered users on the platform via their transfer ID.
+                            Yes. You can transfer money to registered users on the platform via their nickname.
                             No transfer fee is charged for this operation.
 
 
@@ -375,13 +375,13 @@
 
         })
 
-        // faqs.forEach((faq) => {
-        //     faq.addEventListener("mouseleave", () => {
-        //         faq.classList.remove("active")
-        //     })
+        faqs.forEach((faq) => {
+            faq.addEventListener("mouseleave", () => {
+                faq.classList.remove("active")
+            })
 
 
-        // })
+        })
 
 
 
