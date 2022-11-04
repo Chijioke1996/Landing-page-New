@@ -664,7 +664,7 @@ h3 {
 
 .animate {
     height: 980px;
-    background: url(green.webp);
+    /* background: url(green.webp); */
     position: relative;
     overflow: hidden;
     background-position: center;
@@ -853,6 +853,8 @@ h3 {
     margin-top: -15%;
     margin-left: 21%;
 }
+
+/* CONTAINER 5555555555555555 */
 
 .cont5 {
     background-color: rgb(205, 205, 218);

@@ -9,6 +9,8 @@
 </head>
 
 <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
     * {
         padding: 0;
         margin: 0;
@@ -49,12 +51,12 @@
 
     }
 
-    .bulb{
+    .bulb {
         color: white;
-       height: 100px;
-       width: 100px;
-       margin-left: 64%;
-       margin-top: -6%;
+        height: 100px;
+        width: 100px;
+        margin-left: 64%;
+        margin-top: -6%;
     }
 
 
@@ -104,13 +106,13 @@
 
     }
 
-    .answer > p {
+    .answer>p {
 
         line-height: 1.4;
         font-size: 1.2rem;
         text-align: left;
         margin-top: 3%;
-        
+
 
 
     }
@@ -141,11 +143,203 @@
 
     /* CONTAINER 333333333333333333333 */
 
-    .cont3{
-        background-color: rgb(205, 205, 218);
-        height: 400px;
+    .cont3 {
+        /* background-color: rgb(205, 205, 218); */
+        height: 900px;
         margin-top: 80px;
+        position: relative;
+        background-color: rgb(245, 243, 243);
     }
+
+    .header6 {
+
+        margin-left: 16%;
+        font-size: 25px;
+        margin-top: 12%;
+        position: absolute;
+    }
+
+    .para1 {
+
+
+        margin-left: 16%;
+        font-size: 19px;
+        margin-top: 15%;
+        position: absolute;
+    }
+
+    .para2 {
+
+        color: navy;
+        margin-left: 16%;
+        font-size: 39px;
+        margin-top: 8%;
+        position: absolute;
+    }
+
+    .cont3:hover .header6 {
+        color: green;
+        transform: scale(1.0001);
+        transition: 0.5s ease-in;
+        transform: translateY(2px);
+    }
+
+
+    .mail {
+        height: 28px;
+        width: 28px;
+        color: green;
+        margin-left: 3%;
+        margin-top: 3%;
+        position: absolute;
+
+    }
+
+    .phone {
+        height: 28px;
+        width: 28px;
+        color: green;
+        margin-left: 3%;
+        margin-top: 3%;
+        position: absolute;
+    }
+
+    .para4 {
+        margin-left: 3%;
+        margin-top: 6%;
+        position: absolute;
+        font-size: 20px;
+        font-family: poppins, sans-serif;
+        font-weight: 400;
+    }
+
+    .para5 {
+        margin-left: 3%;
+        margin-top: 7%;
+        position: absolute;
+        font-size: 17px;
+        color: #777;
+
+    }
+
+    .btn {
+        margin-left: 3%;
+        margin-top: 11%;
+        position: absolute;
+        border-radius: 6px;
+        width: 150px;
+        height: 37px;
+        background-color: green;
+        border: 2px solid green;
+        color: white;
+
+    }
+
+    .parent-contact {
+        position: relative;
+        margin-left: -5%;
+
+
+    }
+
+     /* CONTAINER CONTACT 2 */
+
+    .contact1 {
+
+        background-color: white;
+        height: 280px;
+        width: 450px;
+        border-radius: 10px;
+        border: 1px solid rgb(205, 203, 203);
+        margin-top: 20%;
+        margin-left: 20%;
+        display: inline-block;
+        
+        transform-origin: top;
+        transition: transform 0.5s;
+    }
+
+    /* Hover contact box 1 */
+
+    .contact1:hover{
+        
+        transform-origin: bottom;
+        transition: transform 0.5s;
+        background-color: green;
+
+    }
+
+    .contact1:hover .mail{
+        color: white;
+    }
+
+    .contact1:hover .phone{
+        color: white;
+    }
+
+    .contact1:hover .para4{
+        color: white;
+    }
+
+    .contact1:hover .para5{
+        color: white;
+    }
+
+    .contact1:hover .btn{
+        background-color: white;
+        color: green;
+        border: 2px solid white;
+    }
+
+    /* CONTAINER CONTACT 2 */
+
+    .contact2 {
+
+        background-color: white;
+        height: 280px;
+        width: 450px;
+        border-radius: 10px;
+        border: 1px solid rgb(205, 203, 203);
+        margin-top: 20%;
+        margin-left: 8%;
+        display: inline-block;
+    }
+
+    /* Hover contact box 1 */ 
+
+    .contact2:hover{
+        
+        transform-origin: bottom;
+        transition: transform 0.5s;
+        background-color: green;
+
+    }
+
+    .contact2:hover .mail{
+        color: white;
+    }
+
+    .contact2:hover .phone{
+        color: white;
+    }
+
+    .contact2:hover .para4{
+        color: white;
+    }
+
+    .contact2:hover .para5{
+        color: white;
+    }
+
+    .contact2:hover .btn{
+        background-color: white;
+        color: green;
+        border: 2px solid white;
+    }
+
+
+
+
 
 
 
@@ -159,10 +353,12 @@
         <header class="header2">Feed your curiousity</header>
 
         <div class="bulb">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="bulb">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
-              </svg>
-              
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="bulb">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+            </svg>
+
         </div>
 
     </div>
@@ -299,7 +495,8 @@
 
                     <div class="answer">
                         <p>
-                            You can share the thrill and the fun with friends and family and a wide spectrum of registered
+                            You can share the thrill and the fun with friends and family and a wide spectrum of
+                            registered
                             participants within the Luckee community. <br>
                             Luckee allows you to create and customize your own raffle groups.
                             Using the Invite option, you can invite playmates to join your custom Quick Draw group.
@@ -325,12 +522,14 @@
                         <p>
                             Fund your wallet with the required fee. <br><br>
 
-                            Select the option "game" from the retractable side menu bar or select game from the bottom navigation bar (footer menu) if you are using a mobile device. <br> <br>
-                            
-                            Select 'pacesetter' from the list of games. Click on 'play now' and read the brief instruction displayed. <br> <br>
-                            
+                            Select the option "game" from the retractable side menu bar or select game from the bottom
+                            navigation bar (footer menu) if you are using a mobile device. <br> <br>
+
+                            Select 'pacesetter' from the list of games. Click on 'play now' and read the brief
+                            instruction displayed. <br> <br>
+
                             Worthy of noting, the pacesetter quiz game is being played in weekly rounds.
-                            
+
 
                         </p>
                     </div>
@@ -350,7 +549,8 @@
 
                     <div class="answer">
                         <p>
-                            Luckee rewards selected newly registered members with a fixed amount that can be used on any activity on the platform or transferred.
+                            Luckee rewards selected newly registered members with a fixed amount that can be used on any
+                            activity on the platform or transferred.
                         </p>
                     </div>
                 </div>
@@ -361,7 +561,51 @@
         </center>
     </div>
 
-    <div class="cont3"></div>
+    <div class="cont3">
+        <p class="para2"> Contact us</p>
+        <header class="header6"> Still haven't found what you're looking for?</header>
+        <p class="para1"> Maybe our support team could be of some kind of assistance to you...</p>
+
+
+        <div class="parent-contact">
+
+            <div class="contact1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="mail">
+                    <path stroke-linecap="round" d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 
+                10-2.636 6.364M16.5 12V8.25" />
+                </svg>
+
+                <p class="para4">Leave a Message</p> <br>
+                <p class="para5"> Do you have general questions or need assistance?<br> Please send us a quick email.
+                </p>
+                <a href="#"><button class="btn">Send Mail</button></a>
+
+
+            </div>
+
+
+            <div class="contact2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="phone">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 
+                002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035
+                 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                </svg>
+
+                <p class="para4">Leave a Message</p> <br>
+                <p class="para5"> Do you have general questions or need assistance?<br> Please send us a quick email.
+                </p>
+                <a href="#"><button class="btn">Send Mail</button></a>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
 
 
     <script>
